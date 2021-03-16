@@ -1,12 +1,12 @@
 [
   {
-    "repository" : "dotOS-Devices/android_device_asus_X01BD",
+    "repository" : "CorvusRom-Devices/android_device_asus_X01BD",
     "target_path": "device/asus/X01BD",
     "branch"     : "R",
     "remote"     : "github"
   },
   {
-    "repository" : "dotOS-Devices/android_device_asus_X01BD",
+    "repository" : "CorvusRom-Devices/android_device_asus_sdm660-common",
     "target_path": "device/asus/sdm660-common",
     "branch"     : "sdm660",
     "remote"     : "github"
@@ -18,7 +18,7 @@
     "remote"     : "github"
   },
   {
-    "repository" : "dotOS-Devices/android_vendor_asus_X01BD",
+    "repository" : "CorvusRom-Devices/android_vendor_asus_X01BD",
     "target_path": "vendor/asus",
     "branch"     : "R"
     "remote"     : "github"

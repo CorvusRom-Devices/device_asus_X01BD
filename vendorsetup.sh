@@ -1,5 +1,6 @@
 export SELINUX_IGNORE_NEVERALLOWS=true
 export SKIP_ABI_CHECKS=true
+export RAVEN_LAIR=Official
 rm -rf vendor/qcom/opensource/power
 git clone https://github.com/LineageOS/android_vendor_qcom_opensource_power.git -b lineage-18.1 vendor/qcom/opensource/power
 rm -rf hardware/qcom-caf/msm8998

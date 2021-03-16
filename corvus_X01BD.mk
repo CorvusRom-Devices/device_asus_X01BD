@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The dotOS Project
+# Copyright (C) 2020 The corvusOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,14 +9,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common dotOS stuff
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common corvusOS stuff
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# Official dotOS
-DOT_OFFICIAL := true
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -25,7 +22,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_X01BD
+PRODUCT_NAME := corvus_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_X01BDA
